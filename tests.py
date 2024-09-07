@@ -1,6 +1,7 @@
 import functions
 import unittest
 
+
 functions.failure_c_p = 0
 
 class Test(unittest.TestCase):
