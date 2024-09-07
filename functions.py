@@ -5,13 +5,13 @@ c = 'c' #cooperated as intended
 d = 'd' #defected as intended
 C = 'C' #cooperated by mistake
 D = 'D' #defected by mistake
-cc = 2 #reward matrix (c,c)
-cd = -1 #reward matrix (c,d)
-dc = 3 #reward matrix (d,c)
-dd = 0 #reward matrix (d,d)
+cc = 2 #reward matrix (cooperate,cooperate)
+cd = -1 #reward matrix (cooperate,defect)
+dc = 3 #reward matrix (defect,cooperate)
+dd = 0 #reward matrix (defect,defect)
 last_move = 200
-failure_c_p = 5 #probability of failing to cooperate in integer percentage
-failure_d_p = 0 #probability of failing to defect in integer percentage
+failure_c_p = 5 #probability of failing to cooperate (defect by mistake) in integer percentage
+failure_d_p = 0 #probability of failing to defect (cooperate by mistake) in integer percentage
 available_players = {'tit_for_tat', 'tit_for_two_tats', 'grudger', 'simpleton',
                      'tester', 'always_defect', 'always_cooperate',
                      'tit_for_tat_advanced', 'delayed_tit_for_two_tats'}
@@ -381,39 +381,3 @@ def play_tournament():
   players = enter_players()
   viewing_setting()
   print(tournament(players))
-
-
-# =======================================================================
-#tournament(['tit_for_tat 1', 'tit_for_tat 2', 'tit_for_two_tats 1',
-#'tit_for_two_tats 2', 'grudger 1', 'grudger 2', 'simpleton 1', 'simpleton 2',
-#'tester 1', 'tester 2', 'always_defect 1', 'always_defect 2',
-#'always_cooperate 1', 'always_cooperate 2'])
-
-
-#tournament(['tit_for_tat 1', 'tit_for_tat 2', 'tit_for_two_tats 1',
-#'tit_for_two_tats 2', 'grudger 1', 'grudger 2', 'simpleton 1', 'simpleton 2',
-#'tester 1', 'tester 2', 'always_defect 1', 'always_defect 2',
-#'always_cooperate 1', 'always_cooperate 2', 'tit_for_tat_advanced 1', 
-#'tit_for_tat_advanced 2', 'delayed_tit_for_two_tats 1', 'delayed_tit_for_two_tats 2'])
-
-#tournament(['tit_for_tat 1', 'tit_for_tat_advanced 1'])
-
-# tournament(['tit_for_tat 1', 'tit_for_tat 2',
-# 'tit_for_two_tats 1', 'tit_for_two_tats 2',
-# 'tester 1', 'tester 2', 'tester 3', 'tester 4',
-# 'always_defect 1', 'always_defect 2', 'always_defect 3', 'always_defect 4',
-# 'always_cooperate 1', 'always_cooperate 2', 'tit_for_real_tat 1', 
-# 'tit_for_real_tat 2', 'tit_strong_for_two_tats 1', 'tit_strong_for_two_tats 2'])
-
-
-# tournament(['tit_for_tat 1', 'tit_for_tat 2', 
-# 'tit_for_two_tats 1', 'tit_for_two_tats 2',
-# 'tester 1', 'tester 2', 'tester 3', 'tester 4', 'tester 5',
-# 'always_defect 1', 'always_defect 2', 'always_defect 3', 'always_defect 4',
-# 'always_defect 5',
-# 'tit_for_real_tat 1', 'tit_for_real_tat 2',
-# 'tit_strong_for_two_tats 1', 'tit_strong_for_two_tats 2'])
-
-
-# tournament(['tit_for_tat', 'tit_for_two_tats', 'grudger', 'simpleton',
-# 'tester', 'always_defect', 'always_cooperate'])
