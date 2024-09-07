@@ -1,5 +1,12 @@
 Evolution of Cooperation
 
-This is a Python program for studying the evolution of cooperation in iterated prisoner's dilemma scenarios. Run "main.py" and follow instructions to run the simulation. You can write more custom strategies in "functions.py" by writing a function for the strategy and adding the function name to the global variable "available_players" and to the function "find_move". "test.py" contains some tests where randomness of the simulation is removed.
+Iterated Prisoner's Dilemma Simulator:
+This Python program explores the dynamics of cooperation in iterated Prisoner's Dilemma scenarios. Use it to simulate and analyze how different strategies fare against each other in repeated interactions.
 
-This project is licensed under the Eclipse Public License 2.0 - see the [LICENSE](LICENSE) file for details.
+Key Features:
+
+    Run Simulations: Execute main.py and follow the prompts to configure and run your simulations.
+    Customize Strategies: Craft your own strategies in functions.py. Simply define a function for your strategy and add its name to the available_players set and the find_move function.
+    Testing: Use test.py to conduct tests, where the element of randomness is removed from the simulation.
+
+Dive deeper into the complexities of game theory and the emergence of cooperation!
