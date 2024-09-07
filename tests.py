@@ -3,7 +3,7 @@ import unittest
 
 functions.failure_c_p = 0
 
-class TestPokerHandClassification(unittest.TestCase):
+class Test(unittest.TestCase):
 
 # =======================================================================
     def test1(self):
