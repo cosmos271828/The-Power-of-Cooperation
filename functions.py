@@ -26,7 +26,7 @@ def tit_for_tat(mine, other, move):
     return c
   else:
     return other[-1]
-  
+
 
 def tit_for_two_tats(mine, other, move):
   if move <= 2:
@@ -53,7 +53,7 @@ def simpleton(mine, other, move):
     return mine[-1]
   elif other[-1] == d:
     return opposite(mine[-1])
-  
+
 
 def tester(mine, other, move):
   if move == 1:
@@ -103,7 +103,7 @@ def delayed_tit_for_two_tats(mine, other, move):
     return d
   else:
     return c
-    
+
 
 # =======================================================================
 def opposite(move):
