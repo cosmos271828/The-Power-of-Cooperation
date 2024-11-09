@@ -1,4 +1,4 @@
-# Evolution of Cooperation
+# The Power of Cooperation
 
 
 ## Iterated Prisoner's Dilemma Simulator
