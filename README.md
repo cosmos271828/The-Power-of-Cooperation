@@ -3,7 +3,7 @@
 
 ## Iterated Prisoner's Dilemma Simulator
 
-This Python program explores the dynamics of cooperation in iterated Prisoner's Dilemma scenarios. Use it to simulate and analyze how different strategies fare against each other in repeated interactions.
+This Python program explores the dynamics of cooperation in iterated prisoner's dilemma scenarios. Use it to simulate and analyze how different strategies fare against each other in repeated interactions.
 
 ## Key Features
 
