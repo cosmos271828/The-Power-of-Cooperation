@@ -18,6 +18,7 @@ available_players = {'tit_for_tat', 'tit_for_two_tats', 'grudger', 'simpleton',
 view_moves = None
 view_scores = None
 
+
 def tit_for_tat(mine, other, move):
   if move == 1:
     return c
