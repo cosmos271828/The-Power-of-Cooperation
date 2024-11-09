@@ -20,6 +20,7 @@ Dive deeper into the complexities of game theory and the emergence of cooperatio
 Motivated by tit-for-tat's underwhelming performance in noisy environments, two new strategies "advanced-tit-for-tat" and "delayed-tit-for-two-tats." were designed.
 
 "advanced-tit-for-tat": it plays like tit-for-tat except it will forgive retaliatory defections.
+
 "delayed-tit-for-two-tats": it plays like tit-for-tat for the first n rounds, then it plays like tit-for-two-tats for the rest of rounds.
 
 ## License
