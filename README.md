@@ -21,7 +21,7 @@ Motivated by tit-for-tat's underwhelming performance in noisy environments, two 
 
 "advanced-tit-for-tat": it plays like tit-for-tat except it will forgive retaliatory defections.
 
-"delayed-tit-for-two-tats": it plays like tit-for-tat for the first n rounds, then it plays like tit-for-two-tats for the rest of rounds.
+"delayed-tit-for-two-tats": it plays like tit-for-tat for the first n rounds, then it plays like tit-for-two-tats for the rest of the rounds.
 
 ## License
 
