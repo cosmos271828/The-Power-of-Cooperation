@@ -19,9 +19,6 @@ view_moves = None
 view_scores = None
 
 def tit_for_tat(mine, other, move):
-  '''
-  tit_for_tat: (listof Str) (listof Str) Nat -> Str
-  '''
   if move == 1:
     return c
   else:
